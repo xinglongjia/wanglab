@@ -1,0 +1,15 @@
+@import '../styles/variables.scss';
+
+.home {
+  padding: 2rem;
+  margin: 0 auto;
+
+  .content-item {
+    max-width: 800px;
+  }
+
+  img {
+    display: block;
+    margin: 2rem auto;
+  }
+} 

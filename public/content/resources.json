@@ -1,0 +1,14 @@
+{
+    "panels": [
+        {
+            "title": "Resources",
+            "description": "We are currently establishing a national pancreatic cancer cohort that integrates multiple data sources, including national registries, biobanks, electronic health records, and clinical imaging. Additional resources are underway, stay tuned!",
+            "image": ""
+        },
+        {
+            "title": "Open position",
+            "description": "We are always interested in welcoming highly motivated young scientisist at Master, PhD, or Postdoctoral level to join us! Applicants with international research experience and strong background in epidemiology, bioinformatics, imaging analyses are encouraged to apply and join our young and dyanamic team! If interested, please send your CV, cover letter and 2-3 references send to qiaoli.wang@med.lu.se. ",
+            "image": ""
+        }
+    ]
+}

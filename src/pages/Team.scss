@@ -1,0 +1,34 @@
+@import '../styles/variables.scss';
+
+.team {
+    .member {
+        margin: 2rem auto;
+        padding: 1.5rem;
+        background: white;
+        border-radius: 8px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        display: flex;
+        max-width: 700px;
+
+        .member-image {
+            width: fit-content;
+            padding: .8rem;
+            flex-shrink: 0;
+
+            img {
+                width: 140px;
+                height: 200px;
+                object-fit: cover;
+            }
+        }
+
+        .member-info {
+            margin-left: 1rem;
+        }
+    }
+
+    .to-be-continued {
+        text-align: center;
+        margin-top: 4rem;
+    }
+} 

@@ -1,0 +1,23 @@
+{
+    "title": "Team",
+    "members": [
+        {
+            "name": "Qiaoli Wang",
+            "role": "MD, PhD - Group Leader",
+            "image": "/assets/images/team/qiaoli_wang.png",
+            "description": "Dr. Qiaoli Wang is an Associated Senior Lecturer (eq. Assistant Professor) at Lund University. She received her MD degree and specialization training in Oncology through joint education in China and France. She obtained her PhD from Karolinska Institutet, Sweden, with an exchange study at Harvard T.H. Chan School of Public Health in US. She then joined Dana-Farber Cancer Institute as a Postdoc Fellow and acted as a Course Director for a master course at Harvard Medical School. In April 2025, she started her own research lab as a Data-Driven Life Science Fellow (DDLS) in Precision Medicine and Diagnostics."
+        },
+        {
+            "name": "Naiqi Zhang",
+            "role": "MD, PhD - Postdoc Fellow",
+            "image": "/assets/images/team/naiqi_zhang.png",
+            "description": "Naiqi is an epidemiologist with expertise in a range of observational study designs, including cross-sectional, case-control, cohort, and Mendelian randomization studies. She joined the lab in May 2025. Her research focuses on risk prediction and the early detection of pancreatic cancer from an epidemiological perspective. ORCID: https://orcid.org/0000-0002-0668-7822, Google Scholar: https://scholar.google.se/citations?user=rUgDY4UAAAAJ&hl=en&oi=ao"        
+        }, 
+        { 
+            "name": "Zheng Su",
+            "role": "MD, PhD - Postdoc Fellow",
+            "image": "/assets/images/team/zheng_su.png",
+            "description": "Zheng received his PhD degree from Peking Union Medical College in 2022, with doctoral thesis focused on population cohorts where he applied epidemiological methods to explore associations between occupational exposure and lung cancer. From 2022 to 2024, he worked on genetic epidemiology and investigated genetic susceptibility loci for chronic obstructive pulmonary disease through genome-wide association studies and cellular experiments. He joined in the lab in June 2025. His reserach interest is integrating multi-omics and lifestyle data to identify high-risk populations for pancreatic cancer, and utilizing multi-omics to advance precision therapeutic approaches for pancreatic cancer."        
+        }
+    ]
+}

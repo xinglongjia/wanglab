@@ -1,3 +1,23 @@
+import { useEffect, useState } from "react";
+import type { ResourcesContent } from "../types/content";
+import { loadContent } from "../utils/contentLoader";
+import "./Resources.scss";
+
 export default function Resources() {
-  return <div>Resources</div>;
+  const [content, setContent] = useState<ResourcesContent>();
+
+  useEffect(() => {
+    loadContent<ResourcesContent>('/content/resources.json').then(setContent);
+  }, []);
+
+  return (
+    <div className="resources">
+      {content?.panels && content.panels.map((item, index) => (
+        <div key={index} className="content-item">
+          <h2>{item.title}</h2>
+          <p>{item.description}</p>
+        </div>
+      ))}
+    </div>
+  );
 }
