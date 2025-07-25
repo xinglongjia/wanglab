@@ -1,4 +1,4 @@
-@import '../styles/variables.scss';
+@use '../styles/variables.scss' as *;;
 
 .header {
   background: linear-gradient(to bottom, $primary, $secondary);

@@ -1,0 +1,89 @@
+{
+    "title": "Flagship Publications",
+    "publications": 
+        [
+            {
+                "title": "Cancer Diagnoses After Recent Weight Loss",
+                "link": "https://jamanetwork.com/journals/jama/fullarticle/2814132",
+                "authors": "Wang QL, Babic A, Rosenthal MH, Lee AA, Zhang Y, Zhang X, Song M, Rezende LF, Lee DH, Biller L, Ng K, Giannakis M, Chan AT, Meyerhardt J, Fuchs CS, Eliassen AH, Birmann BM, Stampfer MJ, Giovannucci EL, Kraft P, Nowak JA, Yuan C, Wolpin BM",
+                "journal": "JAMA",
+                "year": "2024",
+                "volume": "331(4)",
+                "pages": "318-328"
+            },
+            {
+                "title": "Protein biomarkers and alternatively methylated cell-free DNA detect early stage pancreatic cancer",
+                "link": "https://gut.bmj.com/content/73/4/639.long",
+                "authors": "Ben-Ami R, Wang QL, Zhang J, Supplee JG, Fahrmann JF, Lehmann-Werman R, Brais LK, Nowak J, Yuan C, Loftus M, Babic A, Irajizad E, Davidi T, Zick A, Hubert A, Neiman D, Piyanzin S, Gal-Rosenberg O, Horn A, Shemer R, Glaser B, Boos N, Jajoo K, Lee L, Clancy TE, Rubinson DA, Ng K, Chabot JA, Kastrinos F, Kluger M, Aguirre AJ, Jänne PA, Bardeesy N, Stanger B, O'Hara MH, Till J, Maitra A, Carpenter EL, Bullock AJ, Genkinger J, Hanash SM, Paweletz CP, Dor Y, Wolpin BM",
+                "journal": "Gut",
+                "year": "2024",
+                "volume": "73(4)",
+                "pages": "639-648"
+            },
+        
+            {
+                "title": "Adipose tissue and skeletal muscle wasting precede clinical diagnosis of pancreatic cancer",
+                "link": "https://www.nature.com/articles/s41467-023-40024-3",
+                "authors": "Babic A, Rosenthal MH, Sundaresan TK, Khalaf N, Lee V, Brais LK, Loftus M, Caplan L, Denning S, Gurung A, Harrod J, Schawkat K, Yuan C, Wang QL, Lee AA, Biller LH, Yurgelun MB, Ng K, Nowak JA, Aguirre AJ, Bhatia SN, Vander Heiden MG, Van Den Eeden SK, Caan BJ, Wolpin BM",
+                "journal": "Nat Commun",
+                "year": "2023",
+                "volume": "14(1)",
+                "pages": "4317"
+            },
+            {
+                "title": "Pancreatic cancer is associated with medication changes prior to clinical diagnosis",
+                "link": "https://www.nature.com/articles/s41467-023-38088-2",
+                "authors": "Zhang Y, Wang QL, Yuan C, Lee AA, Babic A, Ng K, Perez K, Nowak JA, Lagergren J, Stampfer MJ, Giovannucci EL, Sander C, Rosenthal MH, Kraft P, Wolpin BM",
+                "journal": "Nat Commun",
+                "year": "2023",
+                "volume": "14(1)",
+                "pages": "2437"
+            },
+            {
+                "title": "Plasma 25-Hydroxyvitamin D Levels and Survival in Stage III Colon Cancer: Findings from CALGB/SWOG 80702 (Alliance)",
+                "link": "https://aacrjournals.org/clincancerres/article-abstract/29/14/2621/727717/Plasma-25-Hydroxyvitamin-D-Levels-and-Survival-in?redirectedFrom=fulltext",
+                "authors": "Wang QL, Ma C, Yuan C, Shi Q, Wolpin BM, Zhang Y, Fuchs CS, Meyer J, Zemla T, Cheng E, Kumthekar P, Guthrie KA, Couture F, Kuebler P, Kumar P, Tan B, Krishnamurthi S, Goldberg RM, Venook A, Blanke C, Shields AF, O'Reilly EM, Meyerhardt JA, Ng K",
+                "journal": "Clin Cancer Res",
+                "year": "2023",
+                "volume": "29(14)",
+                "pages": "2621-2630"
+            },
+            {
+                "title": "Risk of estrogen receptor–specific breast cancer by family history of estrogen receptor subtypes and other cancers",
+                "link": "https://academic.oup.com/jnci/article/115/9/1020/7181281?login=false",
+                "authors": "Wang QL, Zhang Y, Zeng E, Grassmann F, He W, Czene K",
+                "journal": "J Natl Cancer Inst",
+                "year": "2023",
+                "volume": "115(9)",
+                "pages": "1020-1028"
+            },
+        
+            {
+                "title": "Temporal association of total serum cholesterol and pancreatic cancer incidence",
+                "link": "https://doi.org/10.3390/nu14224938",
+                "authors": "Yuan C, Kim J, Wang QL, Lee AA, Babic A, PanScan/Pan CIIIIC, Amundadottir LT, Klein AP, Li D, McCullough ML, Petersen GM, Risch HA, Stolzenberg-Solomon RZ, Perez K, Ng K, Giovannucci EL, Stampfer MJ, Kraft P, Wolpin BM",
+                "journal": "Nutrients",
+                "year": "2022",
+                "volume": "14(22)",
+                "pages": "4938"
+            },
+            {
+                "title": "The age-dependent association of risk factors with pancreatic cancer",
+                "link": "https://doi.org/10.1016/j.annonc.2022.03.276",
+                "authors": "Yuan C, Kim J, Wang QL, Lee AA, Babic A, PanScan/Pan CIIIIC, Amundadottir LT, Klein AP, Li D, McCullough ML, Petersen GM, Risch HA, Stolzenberg-Solomon RZ, Perez K, Ng K, Giovannucci EL, Stampfer MJ, Kraft P, Wolpin BM",
+                "journal": "Ann Oncol",
+                "year": "2022",
+                "volume": "33(7)",
+                "pages": "693-701"
+            },
+            {
+                "title": "Development and validation of a risk prediction model for esophageal squamous cell carcinoma using cohort studies",
+                "link": "https://journals.lww.com/ajg/abstract/2021/04000/development_and_validation_of_a_risk_prediction.20.aspx",
+                "authors": "Wang QL, Ness-Jensen E, Santoni G, Xie SH, Lagergren J",
+                "journal": "Am J Gastroenterol",
+                "year": "2021",
+                "volume": "116(4)",
+                "pages": "683-691"
+            }
+        ]
+}
