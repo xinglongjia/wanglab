@@ -7,5 +7,10 @@ export default defineConfig(() => ({
   base: '/wanglab/',
   build: {
     outDir: 'docs',
+    rollupOptions: {
+      input: {
+        main: 'index.html',
+      },
+    },
   },
 }))
