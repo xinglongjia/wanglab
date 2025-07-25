@@ -7,7 +7,7 @@ export default function LabNews() {
   const [content, setContent] = useState<LabNewsContent>();
 
   useEffect(() => {
-    loadContent<LabNewsContent>('./content/lab_news.json').then(setContent);
+    loadContent<LabNewsContent>('content/lab_news.json').then(setContent);
   }, []);
 
   return (
@@ -20,7 +20,7 @@ export default function LabNews() {
           <h3>{item.title}</h3>
           <p> <span className="time">{item.time}</span> {item.description}</p>
 
-          <img width={item.image_width} src={item.image} alt={item.title} />
+          <img width={item.image_width} src={`${import.meta.env.BASE_URL}${item.image}`} alt={item.title} />
         </div>
       ))}
     </div>

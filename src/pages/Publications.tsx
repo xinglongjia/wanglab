@@ -7,7 +7,7 @@ export default function Publications() {
   const [content, setContent] = useState<PublicationContent>();
 
   useEffect(() => {
-    loadContent<PublicationContent>('./content/publications.json').then(setContent);
+    loadContent<PublicationContent>('content/publications.json').then(setContent);
   }, []);
 
   // Group publications by year and sort in decreasing order

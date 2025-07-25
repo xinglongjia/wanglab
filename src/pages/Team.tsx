@@ -6,7 +6,7 @@ export default function Team() {
   const [content, setContent] = useState<TeamContent>();
 
   useEffect(() => {
-    loadContent<TeamContent>('./content/team.json').then(setContent);
+    loadContent<TeamContent>('content/team.json').then(setContent);
   }, []);
   
   return (
@@ -16,7 +16,7 @@ export default function Team() {
       {content?.members.map((member) => (
         <div key={member.name} className="member">
           <div className="member-image">
-            <img src={member.image} alt={member.name} />
+            <img src={`${import.meta.env.BASE_URL}${member.image}`} alt={member.name} />
           </div>
           <div className="member-info">
             <h3>{member.name}, {member.role}</h3>

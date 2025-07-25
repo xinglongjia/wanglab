@@ -8,7 +8,7 @@ export default function Contact() {
   const [content, setContent] = useState<ContactContent>();
 
   useEffect(() => {
-    loadContent<ContactContent>('./content/contact.json').then(setContent);
+    loadContent<ContactContent>('content/contact.json').then(setContent);
   }, []);
 
   return (
@@ -45,8 +45,8 @@ export default function Contact() {
       </div>
 
       <div className="logos">
-        <img width="100px" src={content?.logos[0]} alt="Lunds University" />
-        <img width="240px" src={content?.logos[1]} alt="SciLifeLab" />
+        <img width="100px" src={`${import.meta.env.BASE_URL}${content?.logos[0]}`} alt="Lunds University" />
+        <img width="240px" src={`${import.meta.env.BASE_URL}${content?.logos[1]}`} alt="SciLifeLab" />
       </div>
     </div>
   );

@@ -7,7 +7,7 @@ export default function Research() {
   const [content, setContent] = useState<ResearchContent>();
 
   useEffect(() => {
-    loadContent<ResearchContent>('./content/research.json').then(setContent);
+    loadContent<ResearchContent>('content/research.json').then(setContent);
   }, []);
   
   return (
@@ -29,7 +29,7 @@ export default function Research() {
             )}
           </div>
         )}
-      <img width="50%" src={content?.image} alt="iPanCare" />
+      <img width="50%" src={`${import.meta.env.BASE_URL}${content?.image}`} alt="iPanCare" />
     </div>
   );
 }

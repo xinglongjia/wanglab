@@ -21,7 +21,7 @@
         }
     ],
     "logos": [
-        "/assets/images/lunds_university.png",
-        "/assets/images/sci_life_lab.png"
+        "assets/images/lunds_university.png",
+        "assets/images/sci_life_lab.png"
     ]
 }
