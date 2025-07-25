@@ -1,0 +1,44 @@
+@import '../styles/variables.scss';
+
+.header {
+  background: linear-gradient(to bottom, $primary, $secondary);
+  color: $text-light;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .subtitle {
+    font-weight: 400;
+  }
+
+  .initials {
+    color: $text-blue;
+    font-weight: 400;
+  }
+
+  .nav {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+
+    a {
+      color: $text-light;
+      text-decoration: none;
+      // padding: 0.5rem 0.75rem;
+      border-radius: 4px;
+      transition: background-color 0.2s ease;
+
+      &:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+        text-decoration: none;
+      }
+    }
+  }
+}
