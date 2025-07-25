@@ -6,7 +6,7 @@ export default function Team() {
   const [content, setContent] = useState<TeamContent>();
 
   useEffect(() => {
-    loadContent<TeamContent>('/content/team.json').then(setContent);
+    loadContent<TeamContent>('./content/team.json').then(setContent);
   }, []);
   
   return (

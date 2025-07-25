@@ -7,7 +7,7 @@ export default function Resources() {
   const [content, setContent] = useState<ResourcesContent>();
 
   useEffect(() => {
-    loadContent<ResourcesContent>('/content/resources.json').then(setContent);
+    loadContent<ResourcesContent>('./content/resources.json').then(setContent);
   }, []);
 
   return (

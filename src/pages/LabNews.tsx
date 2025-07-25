@@ -7,7 +7,7 @@ export default function LabNews() {
   const [content, setContent] = useState<LabNewsContent>();
 
   useEffect(() => {
-    loadContent<LabNewsContent>('/content/lab_news.json').then(setContent);
+    loadContent<LabNewsContent>('./content/lab_news.json').then(setContent);
   }, []);
 
   return (

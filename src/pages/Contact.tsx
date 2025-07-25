@@ -8,7 +8,7 @@ export default function Contact() {
   const [content, setContent] = useState<ContactContent>();
 
   useEffect(() => {
-    loadContent<ContactContent>('/content/contact.json').then(setContent);
+    loadContent<ContactContent>('./content/contact.json').then(setContent);
   }, []);
 
   return (
@@ -33,7 +33,7 @@ export default function Contact() {
             </div>
           ))}
         </div>
-        
+
         <div className="links">
           <h3>Useful Links</h3>
           {content?.links.map((item, index) => (

@@ -7,7 +7,7 @@ export default function Home() {
   const [content, setContent] = useState<HomeContent>();
 
   useEffect(() => {
-    loadContent<HomeContent>('/content/home.json').then(setContent);
+    loadContent<HomeContent>('./content/home.json').then(setContent);
   }, []);
 
   return (

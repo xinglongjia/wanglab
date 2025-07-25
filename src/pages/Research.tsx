@@ -7,7 +7,7 @@ export default function Research() {
   const [content, setContent] = useState<ResearchContent>();
 
   useEffect(() => {
-    loadContent<ResearchContent>('/content/research.json').then(setContent);
+    loadContent<ResearchContent>('./content/research.json').then(setContent);
   }, []);
   
   return (
