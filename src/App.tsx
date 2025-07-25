@@ -13,7 +13,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 function App() {
   return (
     <div className="app">
-        <Router>
+        <Router basename={import.meta.env.BASE_URL}>
           <Header />
           <main className="main">
             <Routes>
