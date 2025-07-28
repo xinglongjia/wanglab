@@ -19,7 +19,7 @@ export default function Home() {
         </div>
       ))}
       
-      <img width="50%" src={`${import.meta.env.BASE_URL}${content?.image}`} alt="Motivation" />
+      <img width="50%" src={`${import.meta.env.BASE_URL}${content?.image}`} alt="Lab Value" />
     </div>
   );
 }

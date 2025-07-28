@@ -4,7 +4,7 @@
         {
             "email": "qiaoli.wang@med.lu.se",
             "phone": "+46 40-39 18 18",
-            "name": "Cancer Epidemiolohy",
+            "name": "Cancer Epidemiology",
             "department": "Department of Translational Medicine",
             "building": "Clinical Research Building (CRC)",
             "address": "Jan Waldenströms gata 35, 205 02 Malmö, Sweden"
@@ -16,12 +16,12 @@
             "link": "https://www.scilifelab.se/data-driven/"
         },
         {
-            "name": "Wallenbergy Centre for Molecular Medicine at Lund University",
+            "name": "Wallenberg Centre for Molecular Medicine at Lund University",
             "link": "https://www.wcmm.lu.se/wallenberg-center-molecular-medicine"
         }
     ],
     "logos": [
-        "assets/images/lunds_university.png",
+        "assets/images/lunds_universitet.png",
         "assets/images/sci_life_lab.png"
     ]
 }

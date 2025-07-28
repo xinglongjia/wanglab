@@ -23,7 +23,7 @@ export default function Contact() {
         </div>
         <div className="contact-info">
           {content?.contact.map((item, index) => (
-            <div key={index} className="contact-item">
+            <div key={index} className="contact-item content-primary">
               <p>{item.name}</p>
               <p>{item.department}</p>
               <p>{item.building}</p>
@@ -38,7 +38,7 @@ export default function Contact() {
           <h3>Useful Links</h3>
           {content?.links.map((item, index) => (
             <div key={index}>
-              <a href={item.link} target="_blank" rel="noopener noreferrer">{item.name}</a>
+              <a className="btn-primary" href={item.link} target="_blank" rel="noopener noreferrer">{item.name}</a>
             </div> 
           ))}
         </div>

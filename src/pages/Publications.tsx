@@ -38,7 +38,7 @@ export default function Publications() {
             <h3 className="year-title">{year}</h3>
             <div className="year-publications">
               {groupedPublications.grouped[year].map((publication, index) => (
-                <div key={`${publication.title}-${index}`} className="publication-item">
+                <div key={`${publication.title}-${index}`} className="publication-item content-primary">
                   <a className="publication-title" href={publication.link} target="_blank">{publication.title}</a>
                   <p className="publication-authors">{publication.authors}</p>
                   <p className="publication-journal">

@@ -17,6 +17,14 @@
     font-size: 1.25rem;
     font-weight: bold;
     text-align: center;
+    color: $text-light;
+    text-decoration: none;
+    transition: opacity 0.2s ease;
+
+    &:hover {
+      opacity: 0.8;
+      text-decoration: none;
+    }
   }
 
   .subtitle {
@@ -24,7 +32,7 @@
   }
 
   .initials {
-    color: $text-blue;
+    color: $third;
     font-weight: 400;
   }
 
@@ -43,6 +51,89 @@
       &:hover {
         background-color: rgba(255, 255, 255, 0.1);
         text-decoration: none;
+      }
+    }
+
+    @media (max-width: 925px) {
+      display: none;
+    }
+  }
+
+  .mobile-menu {
+    display: none;
+    position: relative;
+
+    @media (max-width: 925px) {
+      display: block;
+    }
+
+    .hamburger {
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 0.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      z-index: 1001;
+
+      .hamburger-line {
+        width: 25px;
+        height: 3px;
+        background-color: $text-light;
+        transition: all 0.3s ease;
+        border-radius: 2px;
+
+        &.open {
+          &:nth-child(1) {
+            transform: rotate(45deg) translate(5px, 5px);
+          }
+          &:nth-child(2) {
+            opacity: 0;
+          }
+          &:nth-child(3) {
+            transform: rotate(-45deg) translate(7px, -6px);
+          }
+        }
+      }
+    }
+
+    .dropdown-menu {
+      position: absolute;
+      top: 100%;
+      right: 0;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+      min-width: 200px;
+      opacity: 0;
+      visibility: hidden;
+      transform: translateY(-10px);
+      transition: all 0.3s ease;
+      z-index: 1000;
+
+      &.open {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+      }
+
+      a {
+        display: block;
+        padding: 1rem 1.5rem;
+        color: $text-dark;
+        text-decoration: none;
+        border-bottom: 1px solid #f0f0f0;
+        transition: background-color 0.2s ease;
+
+        &:last-child {
+          border-bottom: none;
+        }
+
+        &:hover {
+          background-color: #f8f9fa;
+          color: $primary;
+        }
       }
     }
   }
