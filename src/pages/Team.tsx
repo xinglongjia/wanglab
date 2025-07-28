@@ -14,7 +14,7 @@ export default function Team() {
       <h2 className="page-title">{content?.title}</h2>
 
       {content?.members.map((member) => (
-        <div key={member.name} className="member">
+        <div key={member.name} className="member content-item">
           <div className="member-image">
             <img src={`${import.meta.env.BASE_URL}${member.image}`} alt={member.name} />
           </div>
