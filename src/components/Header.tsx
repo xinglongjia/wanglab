@@ -20,7 +20,7 @@ export default function Header() {
         <br />
         <span className="subtitle">
           <span className="initials">I</span>ntegrative <span className="initials">Pan</span>
-          creatic <span className="initials">Ca</span>ncer <span className="initials">R</span>esearch</span>
+          creatic <span className="initials">Ca</span>ncer <span className="initials">Re</span>search</span>
       </Link>
       
       <nav className="nav">
