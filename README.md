@@ -1,69 +1,133 @@
-# React + TypeScript + Vite
+# Wang Lab - iPanCare
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Integrative Pancreatic Cancer Research Lab Website
 
-Currently, two official plugins are available:
+**Live Site:** [xinglongjia.github.io/wanglab/](https://xinglongjia.github.io/wanglab/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Quick Start
 
-## Expanding the ESLint configuration
+### Prerequisites
+- Node.js (v16 or higher)
+- npm or yarn
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### Installation
+```bash
+# Clone the repository
+git clone <repository-url>
+cd wanglab
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+# Install dependencies
+npm install
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### Development
+```bash
+# Start development server
+npm run dev
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+# The app will be available at http://localhost:5173
 ```
+
+### Building for Production
+```bash
+# Build the project
+npm run build
+
+# Preview the production build
+npm run preview
+```
+
+## 📁 Project Structure
+
+```
+wanglab/
+├── public/                 # Static assets
+│   ├── assets/
+│   │   └── images/        # Image files
+│   └── content/           # JSON content files
+│       ├── home.json
+│       ├── team.json
+│       ├── contact.json
+│       └── publication.json
+├── src/
+│   ├── components/        # Reusable components
+│   │   ├── Header.tsx     # Navigation header
+│   │   ├── Footer.tsx     # Site footer
+│   │   ├── GoogleMap.tsx  # Google Maps integration
+│   │   ├── Header.scss
+│   │   └── Footer.scss
+│   ├── pages/             # Page components
+│   │   ├── Home.tsx       # Home page
+│   │   ├── Team.tsx       # Team members page
+│   │   ├── Contact.tsx    # Contact information
+│   │   ├── Publications.tsx # Research publications
+│   │   ├── Research.tsx   # Research areas
+│   │   ├── LabNews.tsx    # Lab news and updates
+│   │   ├── Resources.tsx  # Resources page
+│   │   └── *.scss         # Page-specific styles
+│   ├── styles/            # Shared styles
+│   │   └── variables.scss # Color variables and design tokens
+│   ├── types/             # TypeScript type definitions
+│   │   └── content.ts     # Content interface types
+│   ├── utils/             # Utility functions
+│   │   └── contentLoader.ts # Content loading utilities
+│   ├── App.tsx            # Main app component
+│   ├── App.scss           # App-level styles
+│   ├── main.tsx           # App entry point
+│   └── main.scss          # Global styles
+├── package.json           # Dependencies and scripts
+├── vite.config.ts         # Vite configuration
+├── tsconfig.json          # TypeScript configuration
+└── README.md              # This file
+```
+
+## 🛠️ Available Scripts
+
+- `npm run dev` - Start development server with hot reload
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build locally
+- `npm run lint` - Run ESLint for code quality
+- `npm run type-check` - Run TypeScript type checking
+
+## 🎨 Features
+
+- **Responsive Design** - Mobile-first approach with dynamic layouts
+- **TypeScript** - Full type safety throughout the application
+- **SCSS Styling** - Modular and maintainable stylesheets
+- **Content Management** - JSON-based content system
+- **Google Maps Integration** - Interactive location display
+- **Mobile Navigation** - Hamburger menu for mobile devices
+- **Publication Grouping** - Publications organized by year
+- **Team Profiles** - Responsive team member cards
+
+## 📱 Mobile Features
+
+- Responsive navigation with hamburger menu
+- Dynamic layouts that adapt to screen size
+- Touch-friendly interface elements
+- Optimized typography for mobile reading
+- Circular profile images on mobile devices
+
+## 🔧 Configuration
+
+### Content Management
+Content is managed through JSON files in the `public/content/` directory:
+- `home.json` - Home page content
+- `team.json` - Team member information
+- `contact.json` - Contact details and location
+- `publication.json` - Research publications
+
+### Styling
+- Uses SCSS with shared variables in `src/styles/variables.scss`
+- Responsive breakpoints: 768px (tablet), 600px (mobile), 480px (small mobile)
+- Color scheme defined in variables for consistency
+
+## 🚀 Deployment
+
+The site is configured for GitHub Pages deployment. The build output is automatically deployed to `xinglongjia.github.io/wanglab/`.
+
+## 📄 License
+
+This project is part of the Wang Lab research group at Lund University.
+
+
