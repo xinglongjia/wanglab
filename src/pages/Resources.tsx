@@ -12,6 +12,7 @@ export default function Resources() {
 
   return (
     <div className="resources">
+      <h2 className="page-title">{content?.title}</h2>
       {content?.panels && content.panels.map((item, index) => (
         <div key={index} className="content-item">
           <h2>{item.title}</h2>

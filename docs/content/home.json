@@ -1,7 +1,8 @@
 {
+    "title": "Welcome to the Wang Lab",
     "panels": [
         {
-            "title": "Welcome to the Wang Lab",
+            "title": "",
             "description": "In the Integrative Pancreatic Cancer Research (iPanCare) Lab, we aim to advance understanding of pancreatic cancer, with a particular emphasis on precision prevention, diagnostics and medicine. Our work focuses on developing strategies for personalized prevention, individualized risk prediction, early detection, and tailored therapeutic and prognostic tools for pancreatic cancer.",
             "image": ""
         },

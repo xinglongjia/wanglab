@@ -12,11 +12,10 @@ export default function Research() {
   
   return (
     <div className="research">
+      <h2 className="page-title">{content?.title}</h2>
         {content && (
           <div className="content-item">
-            <h2>{content.title}</h2>
             <p>{content.description}</p>
-            
             {content.aims && (
                 <>
                     <p>Aims</p>
