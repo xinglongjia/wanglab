@@ -16,7 +16,7 @@ export default function LabNews() {
       {/* <p className="to-be-continued">More to come</p> */}
       
       {content?.news.map((item) => (
-        <div key={item.title} className="news-item content-item">
+        <div key={item.title} className="news-item content-primary">
           <h3>{item.title}</h3>
           <p> <span className="time">{item.time}</span> {item.description}</p>
 
