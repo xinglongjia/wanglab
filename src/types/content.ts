@@ -18,6 +18,9 @@ export interface TeamContent extends ContentData {
     role: string;
     image: string;
     description: string;
+    orcid?: string;
+    google_scholar?: string;
+    linkedin?: string;
   }[];
 }
 
@@ -26,8 +29,8 @@ export interface LabNewsContent extends ContentData {
     title: string;
     time: string;
     description: string;
-    image: string;
-    image_width: string;
+    image?: string;
+    image_width?: string;
   }[];
 }
 

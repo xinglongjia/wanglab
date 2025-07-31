@@ -2,18 +2,51 @@
     "title": "Lab News",
     "news": [
         {
+            "title": "Welcome Ms. Ellen Amper!",
+            "time": "2025-07-03",
+            "description": "We welcome our lovely first undergraduate student Ellen to join our lab for her summer research training!",
+            "image": "assets/images/team/Ellen.jpeg",
+            "image_width": "15%"
+        },
+        {
+            "title": "Welcome Dr. Soroush Ghodratipoor!",
+            "time": "2025-06-23",
+            "description": "We welcome our first master student Soroush to join our lab for his master thesis work!",
+            "image": "assets/images/team/Soroush.jpg",
+            "image_width": "15%"
+        },
+        {
             "title": "First Lab Kickoff!",
             "time": "2025-06-19",
             "description": "The iPanCare Lab has the first Kickoff event, starting with round-table warmup self-introduction, followed by presentations from our postdoc fellows Dr. Naiqi Zhang and Dr. Zheng Su, visiting researcher Dr. Qiang Wang and guest researcher Ms. Sumedha Sumedha. The kickoff ends up with lab lunch at restaurant SMAK!",
-            "image": "assets/images/lab_news/kickoff.jpg",
-            "image_width": "60%"
+            "image": "assets/images/labpic.jpg",
+            "image_width": "40%"
         }, 
+        {
+            "title": "Welcome Dr. Zheng Su!",
+            "time": "2025-06-16",
+            "description": "We welcome our first international researcher Zheng to join our lab as a postdoc fellow!",
+            "image": "assets/images/team/Zheng.png",
+            "image_width": "15%"
+        },
+        {
+            "title": "Welcome Mr. Minghao Chen!",
+            "time": "2025-06-10",
+            "description": "We welcome our first summer student Minghao to join our lab for a research training!",
+            "image": "assets/images/team/Minghao.jpg",
+            "image_width": "15%"
+        },
         {
             "title": "Welcome Dr. Naiqi Zhang!",
             "time": "2025-05-05",
             "description": "We welcome our first lab member, Dr. Naiqi Zhang to join our lab as a postdoc fellow!",
             "image": "assets/images/team/Naiqi.jpg",
-            "image_width": "20%"
+            "image_width": "15%"
+        },
+        {
+            "title": "Lab birth!",
+            "time": "2025-04-14",
+            "description": "The iPanCare lab is open at Clinical Research Center of Lund University!"
         }
     ]
 }

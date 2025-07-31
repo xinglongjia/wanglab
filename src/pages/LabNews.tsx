@@ -13,14 +13,14 @@ export default function LabNews() {
   return (
     <div className="lab-news">
       <h2 className="page-title">{content?.title}</h2>
-      <p className="to-be-continued">More to come</p>
+      {/* <p className="to-be-continued">More to come</p> */}
       
       {content?.news.map((item) => (
         <div key={item.title} className="news-item content-item">
           <h3>{item.title}</h3>
           <p> <span className="time">{item.time}</span> {item.description}</p>
 
-          <img width={item.image_width} src={`${import.meta.env.BASE_URL}${item.image}`} alt={item.title} />
+          {item.image && <img width={item.image_width} src={`${import.meta.env.BASE_URL}${item.image}`} alt={item.title} />}
         </div>
       ))}
     </div>

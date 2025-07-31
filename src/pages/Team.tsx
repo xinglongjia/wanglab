@@ -19,8 +19,19 @@ export default function Team() {
             <img src={`${import.meta.env.BASE_URL}${member.image}`} alt={member.name} />
           </div>
           <div className="member-info">
-            <h3>{member.name}, {member.role}</h3>
+            <h3>{member.name}{member.role.startsWith("-")? ' ' : ", "}{member.role}</h3>
             <p>{member.description}</p>
+            <div className="member-links">
+              {member.orcid && <a href={member.orcid} target="_blank" rel="noopener noreferrer">
+                <img src={`${import.meta.env.BASE_URL}/assets/images/orcid.png`} alt="ORCID" />
+                </a>}
+              {member.google_scholar && <a href={member.google_scholar} target="_blank" rel="noopener noreferrer">
+                <img src={`${import.meta.env.BASE_URL}/assets/images/Google_scholar.jpg`} alt="Google Scholar" />
+                </a>}
+              {member.linkedin && <a href={member.linkedin} target="_blank" rel="noopener noreferrer">
+                <img src={`${import.meta.env.BASE_URL}/assets/images/linkedin.png`} alt="LinkedIn"/>
+                </a>}
+            </div>
           </div>
         </div>
       ))}
