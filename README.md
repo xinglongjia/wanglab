@@ -48,7 +48,10 @@ wanglab/
 │       ├── home.json
 │       ├── team.json
 │       ├── contact.json
-│       └── publication.json
+│       ├── lab_news.json
+│       ├── resources.json
+│       ├── research.json
+│       └── publications.json
 ├── src/
 │   ├── components/        # Reusable components
 │   │   ├── Header.tsx     # Navigation header
@@ -111,16 +114,11 @@ wanglab/
 ## 🔧 Configuration
 
 ### Content Management
-Content is managed through JSON files in the `public/content/` directory:
-- `home.json` - Home page content
-- `team.json` - Team member information
-- `contact.json` - Contact details and location
-- `publication.json` - Research publications
+Content is managed through JSON files in the `public/content/` directory
 
 ### Styling
 - Uses SCSS with shared variables in `src/styles/variables.scss`
 - Responsive breakpoints: 768px (tablet), 600px (mobile), 480px (small mobile)
-- Color scheme defined in variables for consistency
 
 ## 🚀 Deployment
 
