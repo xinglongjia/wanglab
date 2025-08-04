@@ -36,7 +36,7 @@ export default function Team() {
         </div>
       ))}
 
-      <p className="to-be-continued">To be continued <br /> More to come</p>
+      {/* <p className="to-be-continued">To be continued <br /> More to come</p> */}
     </div>
   );
 }

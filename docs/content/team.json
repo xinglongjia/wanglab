@@ -32,6 +32,13 @@
             "google_scholar": "https://scholar.google.se/citations?user=rUgDY4UAAAAJ&hl=en&oi=ao"
         }, 
         {
+            "name": "Qiang Liu",
+            "role": "MD, PhD - Visiting Researcher",
+            "image": "assets/images/team/Qiang_Wang.jpg",
+            "description": "Dr. Qiang had been a clinical hepatopancreatobiliary surgeon during 2014-2017. He received PhD from Karolinska Institutet (KI) in 2022 on quantitative liver-based MRI imaging analyses using radiomics and machine learning. Qiang works on body composition analysis, imaging-based aging, and deep learning approaches during postdoc at KI. In April 2025, he joined iPanCare Lab as a visiting researcher. His research interest includes exploring the potential of imaging biomarkers including radiomics for early detection of hepato-pancreato-billary (HPB) cancers at the population level. He enjoys cycling, watching science-fiction movies, and reading -activities that energize both his work and life.",
+            "orcid": "https://orcid.org/0000-0001-6686-6630"
+        },
+        {
             "name": "Soroush Ghodratipoor",
             "role": "MD - Master Student",
             "image": "assets/images/team/Soroush.jpg",
