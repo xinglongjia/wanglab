@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import "./Header.scss";
+import { buildAssetPath } from "../utils/pathBuilder";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -16,11 +17,16 @@ export default function Header() {
   return (
     <header className="header">
       <Link to="/" className="title">
-        <strong>WANG LAB</strong> - <span className="initials">iPanCare</span>
-        <br />
-        <span className="subtitle">
-          <span className="initials">I</span>ntegrative <span className="initials">Pan</span>
-          creatic <span className="initials">Ca</span>ncer <span className="initials">Re</span>search</span>
+        <div className="logo-container">
+          <img width="50px" src={buildAssetPath('assets/images/Final_radar_nobackground.png')} alt="iPanCare Logo" />
+        </div>
+        <div className="title-container">
+          <strong>WANG LAB</strong>
+          <span className="subtitle">
+            <span className="initials">I</span>ntegrative <span className="initials">Pan</span>
+            creatic <span className="initials">Ca</span>ncer <span className="initials">Re</span>search
+          </span>
+        </div>
       </Link>
       
       <nav className="nav">

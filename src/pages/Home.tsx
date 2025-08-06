@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import type { HomeContent } from "../types/content";
 import { loadContent } from "../utils/contentLoader";
 import "./Home.scss";
+import { buildAssetPath } from "../utils/pathBuilder";
 
 export default function Home() {
   const [content, setContent] = useState<HomeContent>();
@@ -20,7 +21,7 @@ export default function Home() {
         </div>
       ))}
       
-      <img width="50%" src={`${import.meta.env.BASE_URL}${content?.image}`} alt="Lab Value" />
+      <img width="50%" src={buildAssetPath(content?.image)} alt="Lab Value" />
     </div>
   );
 }

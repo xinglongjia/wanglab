@@ -21,6 +21,7 @@ export interface TeamContent extends ContentData {
     orcid?: string;
     google_scholar?: string;
     linkedin?: string;
+    reasearch_gate?: string;
   }[];
 }
 

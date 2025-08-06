@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import type { ResearchContent } from "../types/content";
 import { loadContent } from "../utils/contentLoader";
 import "./Research.scss";
+import { buildAssetPath } from "../utils/pathBuilder";
 
 export default function Research() {
   const [content, setContent] = useState<ResearchContent>();
@@ -28,7 +29,7 @@ export default function Research() {
             )}
           </div>
         )}
-      <img width="50%" src={`${import.meta.env.BASE_URL}${content?.image}`} alt="iPanCare" />
+      <img width="50%" src={buildAssetPath(content?.image)} alt="iPanCare" />
     </div>
   );
 }

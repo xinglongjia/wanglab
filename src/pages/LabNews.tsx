@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import type { LabNewsContent } from "../types/content";
 import { loadContent } from "../utils/contentLoader";
 import "./LabNews.scss";
+import { buildAssetPath } from "../utils/pathBuilder";
 
 export default function LabNews() {
   const [content, setContent] = useState<LabNewsContent>();
@@ -20,7 +21,7 @@ export default function LabNews() {
           <h3>{item.title}</h3>
           <p> <span className="time">{item.time}</span> {item.description}</p>
 
-          {item.image && <img width={item.image_width} src={`${import.meta.env.BASE_URL}${item.image}`} alt={item.title} />}
+          {item.image && <img width={item.image_width} src={buildAssetPath(item.image)} alt={item.title} />}
         </div>
       ))}
     </div>

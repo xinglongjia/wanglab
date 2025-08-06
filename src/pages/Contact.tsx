@@ -3,6 +3,7 @@ import type { ContactContent } from "../types/content";
 import { loadContent } from "../utils/contentLoader";
 import GoogleMap from "../components/GoogleMap";
 import "./Contact.scss";
+import { buildAssetPath } from "../utils/pathBuilder";
 
 export default function Contact() {
   const [content, setContent] = useState<ContactContent>();
@@ -45,8 +46,8 @@ export default function Contact() {
       </div>
 
       <div className="logos">
-        <img width="100px" src={`${import.meta.env.BASE_URL}${content?.logos[0]}`} alt="Lunds University" />
-        <img width="240px" src={`${import.meta.env.BASE_URL}${content?.logos[1]}`} alt="SciLifeLab" />
+        <img width="100px" src={buildAssetPath(content?.logos[0])} alt="Lunds University" />
+        <img width="240px" src={buildAssetPath(content?.logos[1])} alt="SciLifeLab" />
       </div>
     </div>
   );

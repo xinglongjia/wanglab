@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import type { TeamContent } from "../types/content";
 import { loadContent } from "../utils/contentLoader";
 import "./Team.scss";
+import { buildAssetPath } from "../utils/pathBuilder";
 export default function Team() {
   const [content, setContent] = useState<TeamContent>();
 
@@ -16,20 +17,23 @@ export default function Team() {
       {content?.members.map((member) => (
         <div key={member.name} className="member content-item">
           <div className="member-image">
-            <img src={`${import.meta.env.BASE_URL}${member.image}`} alt={member.name} />
+            <img src={buildAssetPath(member.image)} alt={member.name} />
           </div>
           <div className="member-info">
             <h3>{member.name}{member.role.startsWith("-")? ' ' : ", "}{member.role}</h3>
             <p>{member.description}</p>
             <div className="member-links">
               {member.orcid && <a href={member.orcid} target="_blank" rel="noopener noreferrer">
-                <img src={`${import.meta.env.BASE_URL}assets/images/orcid.png`} alt="ORCID" />
+                <img src={buildAssetPath('assets/images/orcid.png')} alt="ORCID" />
                 </a>}
               {member.google_scholar && <a href={member.google_scholar} target="_blank" rel="noopener noreferrer">
-                <img src={`${import.meta.env.BASE_URL}assets/images/Google_scholar.jpg`} alt="Google Scholar" />
+                <img src={buildAssetPath('assets/images/Google_scholar.jpg')} alt="Google Scholar" />
                 </a>}
               {member.linkedin && <a href={member.linkedin} target="_blank" rel="noopener noreferrer">
-                <img src={`${import.meta.env.BASE_URL}assets/images/linkedin.png`} alt="LinkedIn"/>
+                <img src={buildAssetPath('assets/images/linkedin.png')} alt="LinkedIn"/>
+                </a>}
+                {member.reasearch_gate && <a href={member.reasearch_gate} target="_blank" rel="noopener noreferrer">
+                <img src={buildAssetPath('assets/images/ResearchGate.png')} alt="Reasearch Gate"/>
                 </a>}
             </div>
           </div>
