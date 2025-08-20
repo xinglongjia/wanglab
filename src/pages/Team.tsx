@@ -44,7 +44,7 @@ export default function Team() {
         <h3>Alumni</h3>
         {content?.alumni.map((alumni) => (
           <div key={alumni.name} className="alumni-item content-item">
-            <span>{alumni.name}</span>
+            <span className="alumni-name">{alumni.name}</span>
             <span>{alumni.role}</span>
           </div>
         ))}

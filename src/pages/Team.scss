@@ -144,10 +144,15 @@
 
         .alumni-item {
             display: flex;
-            justify-content: space-between;
             align-items: center;
             margin-bottom: 0.5rem;
             max-width: 800px;
+
+            .alumni-name {
+                font-weight: bold;
+                display: inline-block;
+                width: 200px;
+            }
         }
 
         @media (max-width: 768px) {
