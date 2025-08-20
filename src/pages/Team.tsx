@@ -40,7 +40,15 @@ export default function Team() {
         </div>
       ))}
 
-      {/* <p className="to-be-continued">To be continued <br /> More to come</p> */}
+      <div className="alumni-container">
+        <h3>Alumni</h3>
+        {content?.alumni.map((alumni) => (
+          <div key={alumni.name} className="alumni-item content-item">
+            <span>{alumni.name}</span>
+            <span>{alumni.role}</span>
+          </div>
+        ))}
+      </div>
     </div>
   );
 }

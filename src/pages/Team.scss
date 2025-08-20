@@ -132,9 +132,30 @@
         }
     }
 
-    .to-be-continued {
-        text-align: center;
-        margin-top: 4rem;
-    }
+    .alumni-container {
+        margin: 3rem auto;
 
+        h3 {
+            text-align: center;
+            color: $text-blue;
+            margin-bottom: 2rem;
+            font-size: 1.5rem;
+        }
+
+        .alumni-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 0.5rem;
+            max-width: 800px;
+        }
+
+        @media (max-width: 768px) {
+            .alumni-item {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: .5rem;
+            }
+        }
+    }
 } 

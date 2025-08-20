@@ -5,7 +5,7 @@
             "name": "Qiaoli Wang",
             "role": "MD, PhD - Group Leader",
             "image": "assets/images/team/qlw_s.JPG",
-            "description": "Qiaoli is an Associated Senior Lecturer (eq. Assistant Professor) at Lund University. She received her MD degree and specialization training in Oncology through joint education in China and France. She obtained her PhD from Karolinska Institutet, Sweden, with a 6m exchange program at Harvard T.H. Chan School of Public Health in US. She then joined Dana-Farber Cancer Institute as a Postdoc Fellow and acted as a Course Director for a master course at Harvard Medical School. In April 2025, she started her own research lab as a Data-Driven Life Science Fellow (DDLS) in Precision Medicine and Diagnostics supported by the Wallenberg Foundation. She likes jogging in nature and playing badminton during the leisure time. ",
+            "description": "Qiaoli is an Associated Senior Lecturer (eq. Assistant Professor) at Lund University. She received her MD degree and specialization training in Oncology through joint education in China and France. She obtained her PhD from Karolinska Institutet, Sweden, with an exchange program at Harvard T.H. Chan School of Public Health in the US. She then joined Dana-Farber Cancer Institute as a Postdoc Fellow and acted as a Course Director for a master course at Harvard Medical School. In April 2025, she started her research lab as a Data-Driven Life Science (DDLS) Fellow in Precision Medicine and Diagnostics supported by the Wallenberg Foundation. She likes reading, jogging in the nature and playing badminton during the leisure time. ",
             "orcid": "https://orcid.org/0000-0003-4152-7821",
             "google_scholar": "https://scholar.google.com/citations?user=JNoDPI0AAAAJ&hl=en",
             "linkedin": "https://www.linkedin.com/in/qiaoli-wang/"
@@ -17,20 +17,13 @@
             "description": "Ellen is from Helsinki, Finland and she is currently studying the bachelor’s program in biomedicine at Lund University. She started her summer research project in the iPanCare lab in July, 2025. In her free time, she enjoys exploring nature, rock-climbing and spending time with friends and family!"
         },
         {
-            "name": "Minghao Chen",
-            "role": "BSc - Master Student",
-            "image": "assets/images/team/Minghao.jpg",
-            "description": "Minghao held a bachelor degree in Information Management and Information Systems from Huazhong University of Science and Technology in 2022 and worked as data analyst since then. In 2024, he started his Master’degree in Public Health at Lund University. His research interests lie in quantitative epidemiology and health economics. He joined the lab for a summer internship in June 2025 for a project investigating the impact of obesity on pancreatic cancer. He enjoys playing sports, including football, tennis, table tennis, and badminton, as well as traditional chess.",
-            "linkedin":"https://www.linkedin.com/in/minghao-chen-90a78033a"
-        },
-        {
             "name": "Naiqi Zhang",
             "role": "MD, PhD - Postdoc Fellow",
             "image": "assets/images/team/Naiqi.jpg",
             "description": "Naiqi is an epidemiologist with an MD and a Master’s in Epidemiology and Medical Statistics from Sun Yat-Sen University, China, as well as a Ph.D. in Epidemiology from Lund University, Sweden. She joined the lab as a postdoctoral researcher in May 2025. Utilizing her expertise in diverse observational study designs, including cross-sectional, case-control, cohort, and Mendelian randomization approaches, her research focuses on risk prediction and early detection of pancreatic cancer from an epidemiological perspective.",
             "orcid": "https://orcid.org/0000-0002-0668-7822",
             "google_scholar": "https://scholar.google.se/citations?user=rUgDY4UAAAAJ&hl=en&oi=ao"
-        }, 
+        },
         {
             "name": "Qiang Wang",
             "role": "MD, PhD - Visiting Researcher",
@@ -44,13 +37,20 @@
             "role": "DVM - Master Student",
             "image": "assets/images/team/Soroush.jpg",
             "description": "Soroush is pursuing a Master’s in Public Health at Lund University, to deepen knowledge in One Health, analytical epidemiology, and outbreak investigation. He was a veterinary surgeon working on lethal diseases such as cancer and rabies in animals in Iran. This experience inspired him to explore the epidemiology of high-mortality diseases affecting populations. Since June 2025, he has been working at the iPanCare lab for a master’s thesis on pancreatic cancer. Outside of academia, he is an amateur dressage rider with a strong interest in applying novel technology to advance public health.",
-            "linkedin":"https://www.linkedin.com/in/soroush-ghodratipoor-b8337b121/"
+            "linkedin": "https://www.linkedin.com/in/soroush-ghodratipoor-b8337b121/"
         },
-        { 
+        {
             "name": "Zheng Su",
             "role": "MD, PhD - Postdoc Fellow",
             "image": "assets/images/team/Zheng.png",
-            "description": "Zheng received his PhD degree from Peking Union Medical College in 2022, with doctoral thesis focused on population cohorts where he applied epidemiological methods to explore associations between occupational exposure and lung cancer. From 2022 to 2024, he worked on genetic epidemiology and investigated genetic susceptibility loci for chronic obstructive pulmonary disease through genome-wide association studies and cellular experiments. He joined in the lab in June 2025. His reserach interest is integrating multi-omics and lifestyle data to identify high-risk populations for pancreatic cancer, and utilizing multi-omics to advance precision therapeutic approaches for pancreatic cancer."        
+            "description": "Zheng received his PhD degree from Peking Union Medical College in 2022, with doctoral thesis focused on population cohorts where he applied epidemiological methods to explore associations between occupational exposure and lung cancer. From 2022 to 2024, he worked on genetic epidemiology and investigated genetic susceptibility loci for chronic obstructive pulmonary disease through genome-wide association studies and cellular experiments. He joined in the lab in June 2025. His reserach interest is integrating multi-omics and lifestyle data to identify high-risk populations for pancreatic cancer, and utilizing multi-omics to advance precision therapeutic approaches for pancreatic cancer."
+        }
+    ],
+    "alumni": [
+        {
+            "name": "Minghao Chen",
+            "role": "BSc - Master Student from Lund University (Summer Internship)",
+            "linkedin": "https://www.linkedin.com/in/minghao-chen-90a78033a"
         }
     ]
 }

@@ -23,6 +23,11 @@ export interface TeamContent extends ContentData {
     linkedin?: string;
     reasearch_gate?: string;
   }[];
+  alumni: {
+    name: string;
+    role: string;
+    linkedin?: string;
+  }[];
 }
 
 export interface LabNewsContent extends ContentData {
