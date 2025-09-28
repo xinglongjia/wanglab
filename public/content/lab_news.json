@@ -2,6 +2,13 @@
     "title": "Lab News",
     "news": [
         {
+            "title": "Welcome Ms. Ana Camila Vasquez Salazar!",
+            "time": "2025-09-01",
+            "description": "We welcome our multi-talented master student Ana Camila to join our lab for her master thesis work!",
+            "image": "assets/images/team/Camila_Vasquez.jpg",
+            "image_width": "15%"
+        },
+        {
             "title": "Welcome Ms. Ellen Amper!",
             "time": "2025-07-03",
             "description": "We welcome our first lovely undergraduate student Ellen to join our lab for her summer research training!",
