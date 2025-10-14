@@ -2,7 +2,7 @@
 
 Integrative Pancreatic Cancer Research Lab Website
 
-**Live Site:** [xinglongjia.github.io/wanglab/](https://xinglongjia.github.io/wanglab/)
+**Live Site:** [wanglab.se](https://www.wanglab.se/)
 
 ## 🚀 Quick Start
 
@@ -45,35 +45,12 @@ wanglab/
 │   ├── assets/
 │   │   └── images/        # Image files
 │   └── content/           # JSON content files
-│       ├── home.json
-│       ├── team.json
-│       ├── contact.json
-│       ├── lab_news.json
-│       ├── resources.json
-│       ├── research.json
-│       └── publications.json
 ├── src/
 │   ├── components/        # Reusable components
-│   │   ├── Header.tsx     # Navigation header
-│   │   ├── Footer.tsx     # Site footer
-│   │   ├── GoogleMap.tsx  # Google Maps integration
-│   │   ├── Header.scss
-│   │   └── Footer.scss
 │   ├── pages/             # Page components
-│   │   ├── Home.tsx       # Home page
-│   │   ├── Team.tsx       # Team members page
-│   │   ├── Contact.tsx    # Contact information
-│   │   ├── Publications.tsx # Research publications
-│   │   ├── Research.tsx   # Research areas
-│   │   ├── LabNews.tsx    # Lab news and updates
-│   │   ├── Resources.tsx  # Resources page
-│   │   └── *.scss         # Page-specific styles
 │   ├── styles/            # Shared styles
-│   │   └── variables.scss # Color variables and design tokens
 │   ├── types/             # TypeScript type definitions
-│   │   └── content.ts     # Content interface types
 │   ├── utils/             # Utility functions
-│   │   └── contentLoader.ts # Content loading utilities
 │   ├── App.tsx            # Main app component
 │   ├── App.scss           # App-level styles
 │   ├── main.tsx           # App entry point
@@ -116,13 +93,9 @@ wanglab/
 ### Content Management
 Content is managed through JSON files in the `public/content/` directory
 
-### Styling
-- Uses SCSS with shared variables in `src/styles/variables.scss`
-- Responsive breakpoints: 768px (tablet), 600px (mobile), 480px (small mobile)
-
 ## 🚀 Deployment
 
-The site is configured for GitHub Pages deployment. The build output is automatically deployed to `xinglongjia.github.io/wanglab/`.
+The site is configured for GitHub Pages deployment. The build output is automatically deployed to `[xinglongjia.github.io/wanglab/](https://www.wanglab.se/)`.
 
 ## 📄 License
 
