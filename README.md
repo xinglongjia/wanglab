@@ -95,7 +95,7 @@ Content is managed through JSON files in the `public/content/` directory
 
 ## 🚀 Deployment
 
-The site is configured for GitHub Pages deployment. The build output is automatically deployed to `[xinglongjia.github.io/wanglab/](https://www.wanglab.se/)`.
+The site is configured for GitHub Pages deployment. The build output is automatically deployed to `https://www.wanglab.se`.
 
 ## 📄 License
 
