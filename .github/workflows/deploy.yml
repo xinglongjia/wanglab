@@ -30,12 +30,12 @@ jobs:
         run: npm run build
 
       - name: Add CNAME for custom domain
-        run: echo "www.wanglab.se" > dist/CNAME
+        run: echo "www.wanglab.se" > docs/CNAME
 
       - name: Upload build output
         uses: actions/upload-pages-artifact@v3
         with:
-          path: dist  # vite outputs to dist by default
+          path: docs  # vite outputs to dist by default
 
   deploy:
     needs: build
