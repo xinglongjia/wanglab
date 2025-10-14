@@ -24,16 +24,16 @@ export default function Team() {
             <p>{member.description}</p>
             <div className="member-links">
               {member.orcid && <a href={member.orcid} target="_blank" rel="noopener noreferrer">
-                <img src={buildAssetPath('assets/images/orcid.png')} alt="ORCID" />
+                <img src={buildAssetPath('assets/images/icons/orcid.png')} alt="ORCID" />
                 </a>}
               {member.google_scholar && <a href={member.google_scholar} target="_blank" rel="noopener noreferrer">
-                <img src={buildAssetPath('assets/images/Google_scholar.jpg')} alt="Google Scholar" />
+                <img src={buildAssetPath('assets/images/icons/Google_scholar.jpg')} alt="Google Scholar" />
                 </a>}
               {member.linkedin && <a href={member.linkedin} target="_blank" rel="noopener noreferrer">
-                <img src={buildAssetPath('assets/images/linkedin.png')} alt="LinkedIn"/>
+                <img src={buildAssetPath('assets/images/icons/linkedin.png')} alt="LinkedIn"/>
                 </a>}
                 {member.reasearch_gate && <a href={member.reasearch_gate} target="_blank" rel="noopener noreferrer">
-                <img src={buildAssetPath('assets/images/ResearchGate.png')} alt="Reasearch Gate"/>
+                <img src={buildAssetPath('assets/images/icons/ResearchGate.png')} alt="Reasearch Gate"/>
                 </a>}
             </div>
           </div>

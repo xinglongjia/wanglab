@@ -1,6 +1,13 @@
 {
     "title": "Lab News",
     "news": [
+        {   
+            "title": "Friday Fika time!",
+            "time": "2025-10-03",
+            "description": "This Friday Fika, we tried the delicious Colombia traditional food, arepa de huevo. It is made of corns and tastes both sweet and salty, very yummy! Thanks, Camila.",
+            "image": "assets/images/news/Fika_Colombia_food.jpg",
+            "image_width": "40%"
+        },
         {
             "title": "Welcome Ms. Ana Camila Vasquez Salazar!",
             "time": "2025-09-01",
@@ -26,7 +33,7 @@
             "title": "First Lab Kickoff!",
             "time": "2025-06-19",
             "description": "The iPanCare Lab has the first Kickoff event, starting with round-table warmup self-introduction, followed by presentations from our postdoc fellows Dr. Naiqi Zhang and Dr. Zheng Su, visiting researcher Dr. Qiang Wang and guest researcher Ms. Sumedha Sumedha. The kickoff ends up with lab lunch at restaurant SMAK!",
-            "image": "assets/images/labpic.jpg",
+            "image": "assets/images/news/labpic.jpg",
             "image_width": "40%"
         }, 
         {

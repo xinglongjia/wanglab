@@ -14,14 +14,24 @@ export default function Home() {
   return (
     <div className="home">
       <h2 className="page-title">{content?.title}</h2>
+
       {content?.panels && content.panels.map((item, index) => (
         <div key={index} className="content-item">
           {item.title && <h2>{item.title}</h2>}
           <p>{item.description}</p>
+
+          {item.image && <img width="50%" src={buildAssetPath(item.image)} alt={item.title}/>}
         </div>
       ))}
-      
-      <img width="50%" src={buildAssetPath(content?.image)} alt="Lab Value" />
+
+      <div className="funders-container">
+        <p>We gratefully acknowledge the following funders for their generous support of our work.</p>
+        <div className="funders">
+          <img src={buildAssetPath('assets/images/funders/knut_and_alice_wallenberg.jpg')} alt="Wallenberg Foundation" />
+          <img src={buildAssetPath('assets/images/funders/VR_logotyp.png')} alt="VR" />
+          <img src={buildAssetPath('assets/images/funders/LUCC_RGB_ENG.jpg')} alt="LUND LUCC" />
+        </div>
+      </div>
     </div>
   );
 }
