@@ -3,6 +3,11 @@
     "news": [
         {   
             "title": "Friday Fika time!",
+            "time": "2025-11-14",
+            "description": "This is Friday Fika again!"
+        },
+        {   
+            "title": "Friday Fika time!",
             "time": "2025-10-03",
             "description": "This Friday Fika, we tried the delicious Colombia traditional food, arepa de huevo. It is made of corns and tastes both sweet and salty, very yummy! Thanks, Camila.",
             "image": "assets/images/news/Fika_Colombia_food.jpg",
