@@ -28,7 +28,7 @@ export default function Home() {
         <p>We gratefully acknowledge the following funders for their generous support of our work.</p>
         <div className="funders">
           {content?.funders.map((funder) => (
-            <img src={buildAssetPath(funder.image)} alt={funder.name} />
+            <img width={funder.image_width} src={buildAssetPath(funder.image)} alt={funder.name} />
           ))}    
         </div>
       </div>

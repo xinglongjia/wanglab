@@ -10,6 +10,7 @@ export interface HomeContent extends ContentData {
    {
     name: string;
     image: string;
+    image_width: string;
     }[];
 }
 

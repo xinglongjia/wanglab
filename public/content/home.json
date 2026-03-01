@@ -15,19 +15,23 @@
     "funders": [
         {
             "name": "Wallenberg",
-            "image": "assets/images/funders/knut_and_alice_wallenberg.jpg"
+            "image": "assets/images/funders/knut_and_alice_wallenberg.jpg",
+            "image_width": "100px"
         },
         {
             "name": "VR",
-            "image": "assets/images/funders/VR_logotyp.png"
+            "image": "assets/images/funders/VR_logotyp.png",
+            "image_width": "100px"
         },
         {
             "name": "LUCC",
-            "image": "assets/images/funders/LUCC_RGB_ENG.jpg"
+            "image": "assets/images/funders/LUCC_RGB_ENG.jpg",
+            "image_width": "100px"
         },
         {
             "name": "MAS",
-            "image": "assets/images/funders/MCC.jpg"
+            "image": "assets/images/funders/MCC.jpg",
+            "image_width": "100px"
         }
      ]
 }
