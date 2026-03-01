@@ -27,9 +27,9 @@ export default function Home() {
       <div className="funders-container">
         <p>We gratefully acknowledge the following funders for their generous support of our work.</p>
         <div className="funders">
-          <img src={buildAssetPath('assets/images/funders/knut_and_alice_wallenberg.jpg')} alt="Wallenberg Foundation" />
-          <img src={buildAssetPath('assets/images/funders/VR_logotyp.png')} alt="VR" />
-          <img src={buildAssetPath('assets/images/funders/LUCC_RGB_ENG.jpg')} alt="LUND LUCC" />
+          {content?.funders.map((funder) => (
+            <img src={buildAssetPath(funder.image)} alt={funder.name} />
+          ))}    
         </div>
       </div>
     </div>

@@ -6,6 +6,11 @@ export interface ContentData {
 
 export interface HomeContent extends ContentData {
   panels: ContentData[];
+  funders:  
+   {
+    name: string;
+    image: string;
+    }[];
 }
 
 export interface ResearchContent extends ContentData {
