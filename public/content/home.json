@@ -24,6 +24,10 @@
         {
             "name": "LUCC",
             "image": "assets/images/funders/LUCC_RGB_ENG.jpg"
+        },
+        {
+            "name": "MAS",
+            "image": "assets/images/funders/MCC.jpg"
         }
      ]
 }
