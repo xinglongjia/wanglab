@@ -16,7 +16,7 @@
         {
             "name": "Wallenberg",
             "image": "assets/images/funders/knut_and_alice_wallenberg.jpg",
-            "image_width": "100px"
+            "image_width": "120px"
         },
         {
             "name": "VR",
@@ -26,7 +26,7 @@
         {
             "name": "LUCC",
             "image": "assets/images/funders/LUCC_RGB_ENG.jpg",
-            "image_width": "100px"
+            "image_width": "120px"
         },
         {
             "name": "MAS",
