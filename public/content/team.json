@@ -58,12 +58,15 @@
     "alumni": [
         {
             "name": "Minghao Chen",
-            "role": "BSc - Master Student from Lund University (Summer Internship)",
-            "linkedin": "https://www.linkedin.com/in/minghao-chen-90a78033a"
+            "role": "BSc - Master Student from Lund University, 2025"
+        },
+        {
+            "name": "Qiang Wang",
+            "role": "MD, PhD from Karolinska Institutet (Visiting Researcher), 2025"
         },
         {
             "name": "Ana Camila Vasquez Salazar",
-            "role": "MSc from Lund University (Master Thesis)"
+            "role": "MSc from Lund University, 2025-2026"
         }
     ]
 }
