@@ -16,6 +16,12 @@
             "description": "Anton is an associate professor of epidemiologic methods, with a focus on applying advanced statistical and epidemiological approaches to large-scale health data. His research has spanned a range of issues, including methodological work on selection bias and effect heterogeneity as well as substantive health issues such as the long-term effects of sepsis, excess mortality during the COVID-19 pandemic, and the associations between obesity and cancer. Anton earned his PhD from Lund University in 2014 with a thesis on socioeconomic factors and health, including a research stay at Princeton University. He has been employed at the Medical Faculty at Lund University since 2018 and was appointed associate professor in 2021."
         },
         {
+            "name": "Eftychia Kazasi",
+            "role": "BSc - Master's Student",
+            "image": "assets/images/team/Eftychia.jpg",
+            "description": "Eftychia is enrolled in the Applied Computational Science in Biology master's at Lund University. Originally, from Crete, Greece, where she completed her undergraduate studies in Biology at the University of Crete, she decided to focus her expertise on uncovering the patterns hidding within the biological datasets, using computational methods. She joined the lab on March 2026 for a specialized project course in Machine Learning. Beyond the screen, Eftychia likes hiking, watching movies and hanging out with her friends."
+        },
+        {
             "name": "Ellen Amper",
             "role": "- Undergraduate Student",
             "image": "assets/images/team/Ellen.jpeg",
@@ -28,14 +34,6 @@
             "description": "Naiqi is an epidemiologist with an MD and a Master’s in Epidemiology and Medical Statistics from Sun Yat-Sen University, China, as well as a Ph.D. in Epidemiology from Lund University, Sweden. She joined the lab as a postdoctoral researcher in May 2025. Utilizing her expertise in diverse observational study designs, including cross-sectional, case-control, cohort, and Mendelian randomization approaches, her research focuses on risk prediction and early detection of pancreatic cancer from an epidemiological perspective.",
             "orcid": "https://orcid.org/0000-0002-0668-7822",
             "google_scholar": "https://scholar.google.se/citations?user=rUgDY4UAAAAJ&hl=en&oi=ao"
-        },
-        {
-            "name": "Qiang Wang",
-            "role": "MD, PhD - Visiting Researcher",
-            "image": "assets/images/team/Qiang_Wang.jpg",
-            "description": "Qiang had been a clinical hepatopancreatobiliary surgeon during 2014-2017. He received PhD from Karolinska Institutet (KI) in 2022 on quantitative liver-based MRI imaging analyses using radiomics and machine learning. Qiang works on body composition analysis, imaging-based aging, and deep learning approaches during postdoc at KI. In April 2025, he joined iPanCare Lab as a visiting researcher. His research interest includes exploring the potential of imaging biomarkers including radiomics for early detection of hepato-pancreato-billary (HPB) cancers at the population level. He enjoys cycling, watching science-fiction movies, and reading -activities that energize both his work and life.",
-            "orcid": "https://orcid.org/0000-0001-6686-6630",
-            "reasearch_gate": "https://www.researchgate.net/profile/Qiang-Wang-45"
         },
         {
             "name": "Soroush Ghodratipoor",
